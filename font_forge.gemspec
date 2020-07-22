@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.2"
   spec.authors       = ["Renny Ren"]
   spec.email         = ["rennyrjh@gmail.com"]
-  spec.summary       = "font forge"
+  spec.summary       = "A Ruby wrapper of FontForge"
   spec.homepage      = "https://github.com/renny-ren/fontforge-ruby"
   spec.license       = "MIT"
 
