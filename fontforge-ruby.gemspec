@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fontforge-ruby"
-  spec.version       = "0.0.2"
+  spec.version       = "0.1.1"
   spec.authors       = ["Renny Ren"]
   spec.email         = ["rennyrjh@gmail.com"]
-  spec.summary       = "A Ruby wrapper of FontForge"
+  spec.summary       = "A Ruby wrapper for FontForge"
   spec.homepage      = "https://github.com/renny-ren/fontforge-ruby"
   spec.license       = "MIT"
 
