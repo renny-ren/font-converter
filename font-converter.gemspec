@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "font-converter"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["Renny Ren"]
   spec.email         = ["rennyrjh@gmail.com"]
   spec.summary       = "A Ruby wrapper for FontForge"
   spec.homepage      = "https://github.com/renny-ren/font-converter"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = ["lib/font_forge.rb"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
