@@ -1,5 +1,5 @@
 require 'pry'
-require 'font_forge'
+require 'font-converter'
 
 RSpec.configure do |config|
 
