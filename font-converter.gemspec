@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "font-converter"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["Renny Ren"]
   spec.email         = ["rennyrjh@gmail.com"]
   spec.summary       = "A Ruby wrapper for FontForge"
