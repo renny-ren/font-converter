@@ -18,7 +18,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'activesupport'
   spec.add_dependency 'builder'
-  spec.add_dependency 'httparty'
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
@@ -28,6 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry-remote"
   spec.add_development_dependency "pry-nav"
 
-  spec.add_development_dependency "fakeweb"
   spec.add_development_dependency "awesome_print"
 end
