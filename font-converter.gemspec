@@ -3,12 +3,12 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "fontforge-ruby"
+  spec.name          = "font-converter"
   spec.version       = "0.1.1"
   spec.authors       = ["Renny Ren"]
   spec.email         = ["rennyrjh@gmail.com"]
   spec.summary       = "A Ruby wrapper for FontForge"
-  spec.homepage      = "https://github.com/renny-ren/fontforge-ruby"
+  spec.homepage      = "https://github.com/renny-ren/font-converter"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
